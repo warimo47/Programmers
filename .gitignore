@@ -2,7 +2,7 @@
 *.d
 
 # Project Setting
-.vcxproj
+*.vcxproj
 
 # Compiled Object files
 *.slo
