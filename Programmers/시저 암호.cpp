@@ -6,22 +6,23 @@ using namespace std;
 
 string solution(string s, int n)
 {
-	string answer = s;
+	string answer = "";
 
 	for (char c : s)
 	{
 		if (c == ' ')
 		{
-
+			
 		}
 		else if ('a' <= c && c <= 'z')
 		{
-
+			c = (c - 'a' + n) % 26 + 'a';
 		}
 		else
 		{
-
+			c = (c - 'A' + n) % 26 + 'A';
 		}
+		answer.push_back(c);
 	}
 
 	return answer;

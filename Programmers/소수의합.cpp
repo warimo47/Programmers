@@ -41,12 +41,9 @@ long long solution(int n)
 
 int main()
 {
-	
-	for (int i = 2; i < 100000; ++i)
-	{
-		cout << solution(i) << ", ";
-		if (i % 10 == 2) cout << "\n";
-	}
+	cout << solution(7) << "\n\n";
+	cout << solution(8) << "\n\n";
+	cout << solution(2) << "\n\n";
 
 	getchar();
 
