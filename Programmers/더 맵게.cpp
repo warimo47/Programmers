@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <set>
 #include <iostream>
 #include <algorithm>
 
@@ -7,32 +8,36 @@ using namespace std;
 
 int solution(vector<int> scoville, int K)
 {
-	int answer = 0;
+	multiset<int> setScoville;
 
-	sort(scoville.begin(), scoville.end());
+	int answer = 0;
+	int newValue = 0;
+	int firstValue = 0;
+	int secondValue = 0;
+	bool valueUpdate = false;
+
+	for (int sc : scoville)
+	{
+		setScoville.insert(sc);
+	}
 
 	while (true)
 	{
-		if (scoville.size() < 2) return -1;
+		if (*setScoville.begin() >= K) return answer;
 
-		if (scoville[0] > K && scoville[1] > K) break;
+		if (setScoville.size() == 1) return -1;
 
-		if (scoville[0] > scoville[2]) scoville[1] = scoville[1] + scoville[2] * 2;
-		else scoville[1] = scoville[0] + scoville[1] * 2;
+		firstValue = *setScoville.begin();
+		setScoville.erase(setScoville.begin());
+
+		secondValue = *setScoville.begin();
+		setScoville.erase(setScoville.begin());
 		
-		if (scoville.size() > 3)
-		{
-			if (scoville[1] > scoville[3])
-			{
-				scoville[0] = scoville[3];
-				scoville[3] = scoville[1];
-				scoville[1] = scoville[0];
-			}
-		}
+		newValue = firstValue + secondValue * 2;
 
-		scoville.erase(scoville.begin());
+		setScoville.insert(newValue);
 
-		answer++;
+		++answer;
 	}
 
 	return answer;
@@ -41,6 +46,10 @@ int solution(vector<int> scoville, int K)
 int main()
 {
 	vector<int> scoville = { 1, 2, 3, 9, 10, 12 };
+
+	cout << solution(scoville, 7) << "\n\n";
+
+	scoville = { 1, 1, 2, 2, 10, 12 };
 
 	cout << solution(scoville, 7) << "\n\n";
 
