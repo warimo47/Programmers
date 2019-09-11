@@ -5,48 +5,70 @@
 
 using namespace std;
 
+struct best2Song
+{
+	string str;
+	int sum;
+	int first;
+	int second;
+};
+
+bool func(best2Song a, best2Song b)
+{
+	return a.sum > b.sum;
+}
+
 vector<int> solution(vector<string> genres, vector<int> plays)
 {
 	vector<int> answer;
+	vector<best2Song> pickGenres;
+	bool isAllReadyHave;
 
-	vector<string> genresVector;
-	genresVector.push_back(genres[0]);
-
-	vector<vector<pair<int, int>>> genrePlays;
-	vector<pair<int, int>> tempVector;
-	tempVector.push_back(pair<int, int>(plays[0], 0));
-	genrePlays.push_back(tempVector);
-
-	bool alreadyHave;
-
-	for (int gCount = 1; gCount < genres.size(); ++gCount)
+	for (int i = 0; i < genres.size(); ++i)
 	{
-		alreadyHave = false;
-		for (int gVCount = 0; gVCount < genresVector.size(); ++gVCount)
+		isAllReadyHave = false;
+
+		for (int j = 0; j < pickGenres.size(); ++j)
 		{
-			if (genresVector[gVCount] == genres[gCount])
+			if (genres[i].compare(pickGenres[j].str) == 0)
 			{
-				alreadyHave = true;
-				genrePlays[gVCount].push_back(pair<int, int>(plays[gCount], gCount));
+				isAllReadyHave = true;
+
+				pickGenres[j].sum += plays[i];
+
+				if (plays[pickGenres[j].first] < plays[i])
+				{
+					pickGenres[j].second = pickGenres[j].first;
+					pickGenres[j].first = i;
+				}
+				else if (pickGenres[j].second == -1)
+				{
+					pickGenres[j].second = i;
+				}
+				else if (plays[pickGenres[j].second] < plays[i])
+				{
+					pickGenres[j].second = i;
+				}
+
 				break;
 			}
 		}
 
-		if (alreadyHave == false)
+		if (isAllReadyHave == false)
 		{
-			genresVector.push_back(genres[gCount]);
-			tempVector[0] = pair<int, int>(plays[gCount], gCount);
-			genrePlays.push_back(tempVector);
+			pickGenres.push_back( { genres[i], plays[i], i, -1 } );
 		}
 	}
 
-	for (vector<pair<int, int>> gPs : genrePlays)
+	std::sort(pickGenres.begin(), pickGenres.end(), func);
+
+	for (best2Song b2s : pickGenres)
 	{
-		sort(gPs.begin(), gPs.end(), [](pair<int, int> a, pair<int, int> b) {return a.first > b.first; });
+		answer.push_back(b2s.first);
+		if (b2s.second != -1)
+			answer.push_back(b2s.second);
 	}
-
-
-
+	
 	return answer;
 }
 
