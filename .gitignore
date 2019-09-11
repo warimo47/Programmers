@@ -1,9 +1,6 @@
 # Prerequisites
 *.d
 
-# Project Setting
-*.vcxproj
-
 # Compiled Object files
 *.slo
 *.lo
