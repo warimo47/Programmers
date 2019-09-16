@@ -159,5 +159,8 @@
     <ClCompile Include="나머지 한 점.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="숫자 야구.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
