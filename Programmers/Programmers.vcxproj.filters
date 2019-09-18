@@ -162,5 +162,11 @@
     <ClCompile Include="숫자 야구.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="스티커 모으기(2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="단어 퍼즐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
