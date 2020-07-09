@@ -168,7 +168,13 @@
     <ClCompile Include="단어 퍼즐.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="이분탐색_예산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="라면공장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입국심사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
