@@ -8,41 +8,26 @@ using namespace std;
 
 unsigned long long solution(int n, vector<int> times)
 {
-	priority_queue<pair<unsigned long long, unsigned long long>, vector<pair<unsigned long long, unsigned long long>>, greater<pair<unsigned long long, unsigned long long>>> waitTimes;
+	sort(times.begin(), times.end());
 
-	for (auto t : times)
+	unsigned long long left = n;
+	unsigned long long right = n * times.back();
+
+	unsigned long long answer = (left + right) / 2;
+
+	while (true)
 	{
-		waitTimes.push(pair<unsigned long long, unsigned long long>(t, t));
+		unsigned long long temp = 0;
+
+		for (auto t : times)
+		{
+			temp += t / answer;
+		}
+
+		if (n > temp) break;
 	}
 
-	pair<unsigned long long, unsigned long long> temp;
-
-	while(true)
-	{
-		if (n == 0) break;
-
-		temp = waitTimes.top();
-		waitTimes.pop();
-		temp.first += temp.second;
-		waitTimes.push(temp);
-
-		n--;
-	}
-
-	priority_queue<unsigned long long> waitTimes2;
-
-	while(true)
-	{
-		if (waitTimes.empty() == true) break;
-
-		temp = waitTimes.top();
-		waitTimes.pop();
-		temp.first -= temp.second;
-
-		waitTimes2.push(temp.first);
-	}
-
-	return waitTimes2.top();
+	return answer;
 }
 
 int main()
