@@ -4,43 +4,60 @@
 
 using namespace std;
 
-string solution(int n)
+string myPlus(string _str, int _step)
 {
-	if (n == 1) return "1";
-	if (n == 2) return "2";
-	string answer = "";
-
-	int num = n;
-
-	vector<int> digits{ 0, 3, 12, 39, 120, 363, 1092, 3279, 9840, 29523, 88572, 265719, 797160, 2391483, 7174452, 21523359, 64570080, 193710243 };
-	int digitCount = 0;
-	
-	for (int dc : digits)
+	if (_step == -1)
 	{
-		if (num <= dc) break;
-		++digitCount;
+		_str = "1" + _str;
+		return _str;
 	}
 
-	int divisionValue;
-
-	for (int i = digitCount; i > 0; --i)
+	switch (_str[_step])
 	{
-		divisionValue = (digits[i] - digits[i - 1]) / 3;
+	case '1':
+		_str[_step] = '2';
+		break;
+	case '2':
+		_str[_step] = '4';
+		break;
+	case '4':
+		_str[_step] = '1';
+		_str = myPlus(_str, _step - 1);
+		break;
+	}
 
+	return _str;
+}
 
-		if (num / i == 0)
-		{
-			answer = '4' + answer;
-		}
-		else if(num % 3 == 1)
-		{
-			answer = '1' + answer;
-		}
-		else
-		{
-			answer = '2' + answer;
-		}
-		num = num - (num % 3);
+string solution(int n)
+{
+	string answer = "1";
+
+	if (n > 3000000)
+	{
+		answer = "12121441412244";
+		n -= 3000000;
+	}
+	else if (n > 2000000)
+	{
+		answer = "4142114444242";
+		n -= 2000000;
+	}
+	else if (n > 1000000)
+	{
+		answer = "1212144141241";
+		n -= 1000000;
+	}
+	else
+	{
+		answer = "1";
+	}
+
+	if (n == 1) return "1";
+
+	for (int i = 0; i < n - 1; ++i)
+	{
+		answer = myPlus(answer, answer.size() - 1);
 	}
 
 	return answer;
@@ -48,10 +65,15 @@ string solution(int n)
 
 int main()
 {
-	for (int i = 1; i < 500; ++i)
-	{
-		cout << solution(i) << "\n";
-	}
+	cout << solution(1000000) << "\n";
+
+	cout << solution(2000000) << "\n";
+
+	cout << solution(3000000) << "\n";
+
+	cout << solution(4000000) << "\n";
+
+	cout << solution(5000000) << "\n";
 
 	getchar();
 

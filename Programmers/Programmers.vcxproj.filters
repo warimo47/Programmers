@@ -198,5 +198,8 @@
     <ClCompile Include="실패율.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[1차] 다트 게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
