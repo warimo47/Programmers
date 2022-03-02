@@ -213,5 +213,8 @@
     <ClCompile Include="2020카카오프로그래밍3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
