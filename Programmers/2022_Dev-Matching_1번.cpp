@@ -100,7 +100,7 @@ vector<int> solution(vector<string> purchase)
 		eventList.push_back(pair<int, int>(dayNum + 30, -tempPrice));
 	}
 
-	eventList.push_back(pair<int, int>(3000, 0));
+	eventList.push_back(pair<int, int>(365, 0));
 
 	sort(eventList.begin(), eventList.end());
 
@@ -110,32 +110,37 @@ vector<int> solution(vector<string> purchase)
 
 	for (int i = 0; i < 365; ++i)
 	{
-		if (i == eventList[eventIndex].first)
+		while (true)
 		{
-			nowPrice += eventList[eventIndex].second;
+			if (i == eventList[eventIndex].first)
+			{
+				nowPrice += eventList[eventIndex].second;
 
-			eventIndex++;
+				eventIndex++;
 
-			if (nowPrice < 10000)
-			{
-				nowGrade = 0;
+				if (nowPrice < 10000)
+				{
+					nowGrade = 0;
+				}
+				else if (nowPrice < 20000)
+				{
+					nowGrade = 1;
+				}
+				else if (nowPrice < 50000)
+				{
+					nowGrade = 2;
+				}
+				else if (nowPrice < 100000)
+				{
+					nowGrade = 3;
+				}
+				else
+				{
+					nowGrade = 4;
+				}
 			}
-			else if (nowPrice < 20000)
-			{
-				nowGrade = 1;
-			}
-			else if (nowPrice < 50000)
-			{
-				nowGrade = 2;
-			}
-			else if (nowPrice < 100000)
-			{
-				nowGrade = 3;
-			}
-			else
-			{
-				nowGrade = 4;
-			}
+
+			if (i < eventList[eventIndex].first) break;
 		}
 
 		gradeList[i] = nowGrade;
@@ -161,6 +166,15 @@ int main()
 	cout << "\n\n";
 
 	answer = solution({ "2019/01/30 5000", "2019/04/05 10000", "2019/06/10 20000", "2019/08/15 50000", "2019/12/01 100000" });
+
+	for (int i = 0; i < answer.size(); ++i)
+	{
+		cout << answer[i] << " ";
+	}
+
+	cout << "\n\n";
+
+	answer = solution({ "2019/01/01 10000", "2019/01/31 10000"});
 
 	for (int i = 0; i < answer.size(); ++i)
 	{
