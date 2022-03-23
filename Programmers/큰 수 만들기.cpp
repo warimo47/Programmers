@@ -7,25 +7,33 @@ using namespace std;
 
 string solution(string number, int k)
 {
-	set<string> candidates;
-	set<string>::iterator iter;
-	string tempNumber;
+	int checkIndex = 0;
+
+	bool isErase = false;
 
 	for (int i = 0; i < k; ++i)
 	{
-		candidates.empty();
-		
-		for (int j = 0; j < number.size(); ++j)
-		{
-			tempNumber = number;
-			tempNumber.erase(tempNumber.begin() + j);
+		isErase = false;
 
-			candidates.insert(tempNumber);
+		while (checkIndex + 1 < number.size())
+		{
+			if (number[checkIndex] < number[checkIndex + 1])
+			{
+				number.erase(number.begin() + checkIndex);
+				checkIndex--;
+				if (checkIndex == -1) checkIndex = 0;
+				isErase = true;
+				break;
+			}
+			
+			checkIndex++;
 		}
 
-		iter = candidates.end();
-		iter--;
-		number = *iter;
+		if (isErase == false)
+		{
+			number.erase(number.begin() + checkIndex);
+			checkIndex = 0;
+		}
 	}
 
 	return number;
