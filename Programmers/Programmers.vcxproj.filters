@@ -13,147 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Challenge">
+      <UniqueIdentifier>{196bf4ed-dd70-4a29-b0a8-9c7d291414d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level1%28Solved%29">
+      <UniqueIdentifier>{1320b460-32a1-4305-9488-67aeff029d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level2%28Unsolved%29">
+      <UniqueIdentifier>{fbe5fe43-d507-4fd0-89c4-0adee507c7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level2%28Solved%29">
+      <UniqueIdentifier>{b0de025b-b57f-420c-bd79-5eddb291053f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level3%28Solved%29">
+      <UniqueIdentifier>{a9ee8cb9-eb8d-44aa-b19c-ceb98257cae6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="다리를 지나는 트럭.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="기능개발.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="쇠막대기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="프린터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="탑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="주식가격.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="더 맵게.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="H-Index.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="위장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="베스트앨범.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소수의합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소수구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 다루기 기본.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="시저 암호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="체육복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="124 나라의 숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="최대공약수와 최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="행렬의 덧셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="하샤드 수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="콜라츠 추측.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="정수 제곱근 판별.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="제일 작은 수 제거하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="직사각형 별찍기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="이상한 문자 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="예산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="피보나치 수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="최댓값과 최솟값.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="최솟값 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="다음 큰 숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자의 표현.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="올바른 괄호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="N개의 최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="행렬의 곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="타겟 넘버.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="JadenCase 문자열 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="가장 큰 정사각형 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="땅따먹기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="스킬트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="카펫.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수 찾기 Level2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="스킬 체크 테스트 Level3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="나머지 한 점.cpp">
@@ -180,176 +66,302 @@
     <ClCompile Include="타일 장식물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="정수 삼각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="등굣길.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="크레인 인형뽑기 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="[카카오 인턴] 키패드 누르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="[1차] 비밀지도.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실패율.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="[1차] 다트 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="이중우선순위큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="디스크 컨트롤러.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2020카카오프로그래밍1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="2020카카오프로그래밍3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="네트워크.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="단어 변환.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="여행경로.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="큰 수 만들기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="2022_Dev-Matching_1번.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="2022_Dev-Matching_2번.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="2022_Dev-Matching_3번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="신고 결과 받기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="신규 아이디 추천.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자 문자열과 영단어.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="없는 숫자 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="음양 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="내적.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="포켓몬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="약수의 개수와 덧셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3진법 뒤집기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="두 개 뽑아서 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="최소직사각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="나머지가 1이 되는 수 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="부족한 금액 계산하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열 압축.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="오픈채팅방.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="카카오프렌즈 컬러링북.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="단체사진 찍기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="멀쩡한 사각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="짝지어 제거하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="행렬 테두리 회전하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="메뉴 리뉴얼.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1차_1번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1차_2번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1차_3번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1차_4번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2차_1번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2차_2번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2차_3번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2차_4번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="괄호 변환.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="조이스틱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="구명보트.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="튜플.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="[1차] 뉴스 클러스터링.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="dev1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="dev2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
     </ClCompile>
     <ClCompile Include="dev3.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_1차_1번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_1차_2번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_1차_3번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_1차_4번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_2차_1번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_2차_2번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_2차_3번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge\2022_SK_ICT_Family_2차_4번.cpp">
+      <Filter>소스 파일\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="신고 결과 받기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="로또의 최고 순위와 최저 순위.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="신규 아이디 추천.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 문자열과 영단어.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="크레인 인형뽑기 게임.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="없는 숫자 더하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="음양 더하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="내적.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 만들기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="실패율.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="약수의 개수와 덧셈.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="3진법 뒤집기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="예산.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="두 개 뽑아서 더하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최소직사각형.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지가 1이 되는 수 찾기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="부족한 금액 계산하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 내 마음대로 정렬하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 다루기 기본.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="시저 암호.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="이상한 문자 만들기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="자연수 뒤집어 배열로 만들기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 내림차순으로 배치하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="제일 작은 수 제거하기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 제곱근 판별.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최대공약수와 최소공배수.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="콜라츠 추측.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="하샤드 수.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 덧셈.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="x만큼 간격이 있는 n개의 숫자.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="직사각형 별찍기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="오픈채팅방.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="카카오프렌즈 컬러링북.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="단체사진 찍기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="멀쩡한 사각형.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="124 나라의 숫자.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟 넘버.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="짝지어 제거하기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬 테두리 회전하기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 변환.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="튜플.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기 Level2.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="위장.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="H-Index.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="카펫.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="구명보트.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬트리.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 큰 숫자.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="땅따먹기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의 표현.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값과 최솟값.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값 만들기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 수.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 곱셈.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="JadenCase 문자열 만들기.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="N개의 최소공배수.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 삼각형.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="단어 변환.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="베스트앨범.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="여행경로.cpp">
+      <Filter>소스 파일\Level3%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="폰켓몬.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="조이스틱.cpp">
+      <Filter>소스 파일\Level2%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 정사각형 찾기.cpp">
+      <Filter>소스 파일\Level2%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="[1차] 뉴스 클러스터링.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="올바른 괄호.cpp">
+      <Filter>소스 파일\Level2%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="메뉴 리뉴얼.cpp">
+      <Filter>소스 파일\Level2%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="[1차] 다트 게임.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="[1차] 비밀지도.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2020_카카오_인턴십_키패드 누르기.cpp">
+      <Filter>소스 파일\Level1%28Solved%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
