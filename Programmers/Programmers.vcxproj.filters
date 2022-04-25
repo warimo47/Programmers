@@ -28,45 +28,15 @@
     <Filter Include="소스 파일\Level3%28Solved%29">
       <UniqueIdentifier>{a9ee8cb9-eb8d-44aa-b19c-ceb98257cae6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level3%28Unsolved%29">
+      <UniqueIdentifier>{500a70a8-7f8f-442c-b1f9-92cbc838f6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Disappeared">
+      <UniqueIdentifier>{94c59ca0-bb36-4174-8bcf-6efcc8b4a5fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="쇠막대기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="탑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수의합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="나머지 한 점.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="숫자 야구.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="스티커 모으기(2).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="단어 퍼즐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="이분탐색_예산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라면공장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="입국심사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="타일 장식물.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="등굣길.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2020카카오프로그래밍1.cpp">
@@ -362,6 +332,45 @@
     </ClCompile>
     <ClCompile Include="2020_카카오_인턴십_키패드 누르기.cpp">
       <Filter>소스 파일\Level1%28Solved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="입국심사.cpp">
+      <Filter>소스 파일\Level3%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="등굣길.cpp">
+      <Filter>소스 파일\Level3%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="스티커 모으기(2).cpp">
+      <Filter>소스 파일\Level3%28Unsolved%29</Filter>
+    </ClCompile>
+    <ClCompile Include="라면공장.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="소수의합.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="소수구하기.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="쇠막대기.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 야구.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="전광판.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="온풍기.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="출석이벤트.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="타일 장식물.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
+    </ClCompile>
+    <ClCompile Include="탑.cpp">
+      <Filter>소스 파일\Disappeared</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
